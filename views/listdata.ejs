@@ -1,0 +1,18 @@
+<%- include("header") -%>
+<div class="box" id="heading">
+    <h1><%= listTitle %></h1>
+</div>
+
+<div class="box">
+    <form class="item" action="/" method="post">
+       <div>
+        <input type="text" name="name" placeholder="Full Name" autocomplete="off">
+        <input type="email" name="email" placeholder="Email" autocomplete="off">
+        <input type="number" name="age" placeholder="Age" autocomplete="off">
+        <input type="address" name="address" placeholder="Address" autocomplete="off">
+        <button type="submit" name="List" value=<%= listTitle %>>+</button>
+       </div>
+    </form>
+</div>
+
+<%- include("footer") -%>

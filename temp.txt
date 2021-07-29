@@ -1,0 +1,51 @@
+
+
+
+
+
+// app.get("/", function(req,res){
+   
+//     Emp.find({},function(err, itemfound){
+//         if(!err){
+//             res.render("listdata", {listTitle :"Employee", listItems: itemfound });
+//         }
+//     });
+// });
+
+// app.get("/get-data", function(req, res){
+//     resultArr = [];
+//     const cursor = Emp.find();
+//     cursor.forEach(function(err, doc){
+//         if(!err){
+//             resultArr.push(doc);
+//         }
+//     }, function(){
+//         res.render("listdata", {emp: resultArr})
+//     });
+// });
+
+// app.post("/", function(req, res){
+//     const Name = req.body.name;
+//     const Age = req.body.age;
+//     const Email = req.body.email;
+//     const Address = req.body.address;
+//     const listName = req.body.List;
+//     const item = new Emp({
+//         name : Name,
+//         age : Age,
+//         email : Email,
+//         address : Address
+//     });
+//     if(listName === "Employee"){
+//         item.save();
+//         res.redirect("/");
+//     }else{
+//         List.findOne({name:listName}, function(err, foundList){
+//             foundList.people.push(item);
+//             foundList.save();
+//             res.redirect("/");
+//         })
+//     }
+// });
+
+
